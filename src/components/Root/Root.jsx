@@ -16,8 +16,8 @@ const Root = () => {
                         <div className="flex flex-col justify-center items-center">
                             <RotatingLines
                                 visible={true}
-                                height="300"
-                                width="500"
+                                height="200"
+                                width="200"
                                 color="grey"
                                 strokeWidth="5"
                                 animationDuration="0.75"

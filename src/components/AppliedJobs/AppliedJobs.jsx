@@ -23,8 +23,8 @@ const AppliedJobs = () => {
             setFilterJobs(jobApplication);
         }
     }, [jobs]);
-    console.log(filterJobs);
-    console.log(appliedJobs);
+    // console.log(filterJobs);
+    // console.log(appliedJobs);
 
   
 

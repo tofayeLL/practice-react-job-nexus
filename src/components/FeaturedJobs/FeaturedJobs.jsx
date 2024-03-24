@@ -27,8 +27,8 @@ const FeaturedJobs = () => {
                     loading ?
                         <div className="flex justify-center items-center "> <RotatingLines
                             visible={true}
-                            height="300"
-                            width="400"
+                            height="200"
+                            width="200"
                             color="grey"
                             strokeWidth="5"
                             animationDuration="0.75"
