@@ -2,6 +2,8 @@
 import { useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import { getStoredJobApplicationInLs } from "../../utility/localstorage";
+import { Helmet } from "react-helmet-async";
+
 
 
 
@@ -49,6 +51,15 @@ const AppliedJobs = () => {
 
     return (
         <div>
+          
+
+          <Helmet>
+            <title>Job Nexus | Applied Jobs</title>
+          </Helmet>
+           
+
+
+
             <h1 className="text-4xl font-bold">Applied Jobs {appliedJobs.length}</h1>
 
             <div className="my-10">

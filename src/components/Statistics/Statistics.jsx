@@ -3,6 +3,7 @@ import { useLoaderData } from "react-router-dom";
 import { getStoredJobApplicationInLs } from "../../utility/localstorage";
 
 import { PieChart, Pie,  Cell, ResponsiveContainer, Tooltip, Legend } from 'recharts';
+import { Helmet } from "react-helmet-async";
 
 
 const Statistics = () => {
@@ -46,6 +47,13 @@ const Statistics = () => {
 
     return (
         <div className="w-[100vh] h-[100vh] flex flex-col justify-center items-center mx-auto">
+            <Helmet>
+                <title>Job Nexus | statistics</title>
+            </Helmet>
+
+
+
+
            <h1 className="text-xl font-bold mt-10 p-6 bg-purple-300 rounded-md">Here Is The Pie Chart for Applied jobs From All jobs</h1>
 
 
